@@ -4,9 +4,11 @@ This is my 2025 portfolio. Here you can download my resume and check out all the
 
 ## Design
 
-![Scremshot]()
+![Scremshot](<img width="1353" height="635" alt="portfolio" src="https://github.com/user-attachments/assets/b89bcfe5-c65d-4b74-b68a-7242c736ce68" />
+)
 
-![Screamshot]()
+![Screamshot](<img width="1349" height="644" alt="portfolioAbout" src="https://github.com/user-attachments/assets/03b4c9d2-2373-4b13-8ec2-6c02fa2d2d23" />
+)
 
 
 
