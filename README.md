@@ -4,9 +4,9 @@ This is my 2025 portfolio. Here you can download my resume and check out all the
 
 ## Design
 
-![Scremshot](https://imgur.com/oYVnpcK.png)
+![Scremshot]()
 
-![Screamshot](https://imgur.com/Th9089F.png)
+![Screamshot]()
 
 
 
