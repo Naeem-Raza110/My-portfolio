@@ -42,14 +42,14 @@ export function ModalInfo({ SelectedProject, closeModal }) {
             </li>
 
             <li>
-              <span className="text-primary-color">Code: </span>
-              <a
+            
+              {/* <a
                 target="_blank"
                 className="hover:underline hover:underline-offset-4 hover:text-dark-green transition-all duration-500"
                 href={SelectedProject.code}
               >
                 Click here to see the repository
-              </a>
+              </a> */}
             </li>
           </ul>
         </div>

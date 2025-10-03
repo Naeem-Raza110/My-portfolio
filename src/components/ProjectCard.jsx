@@ -28,12 +28,6 @@ const ProjectCard = ({ project, handleModalInfo }) => {
         >
           Demo
         </button>
-        <button
-          onClick={() => handleClickCode(project.code)}
-          className="w-1/2 px-6 py-2 m-4 duration-200 hover:scale-125"
-        >
-          Code
-        </button>
       </div>
     </div>
   );

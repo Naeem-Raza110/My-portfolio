@@ -39,12 +39,12 @@ const Techs = () => {
       title: "React",
       style: "shadow-cyan-400",
     },
-    {
-      id: 5,
-      src: vue,
-      title: "Vue",
-      style: "shadow-emerald-500",
-    },
+    // {
+    //   id: 5,
+    //   src: vue,
+    //   title: "Vue",
+    //   style: "shadow-emerald-500",
+    // },
     {
       id: 6,
       src: tailwind,
@@ -75,18 +75,18 @@ const Techs = () => {
       title: "GitHub",
       style: "shadow-white",
     },
-    {
-      id: 11,
-      src: postgres,
-      title: "PostgreSQL",
-      style: "shadow-blue-400",
-    },
-    {
-      id: 12,
-      src: redux,
-      title: "Redux",
-      style: "shadow-violet-700",
-    },
+    // {
+    //   id: 11,
+    //   src: postgres,
+    //   title: "PostgreSQL",
+    //   style: "shadow-blue-400",
+    // },
+    // {
+    //   id: 12,
+    //   src: redux,
+    //   title: "Redux",
+    //   style: "shadow-violet-700",
+    // },
   ];
 
   return (

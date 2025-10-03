@@ -10,10 +10,6 @@ const NavbarVideos = () => {
             id: 1,
             link: "About"
         },
-        {
-            id: 2,
-            link: "Edition"
-        }
         // {
         //     id: 3,
         //     link: "Creator"
