@@ -20,81 +20,68 @@ const AllProjects = () => {
     {
       id: 1,
       src: easyshop,
-      demo: "https://easyshop-bydt.netlify.app/",
     },
     {
       id: 2,
       src: acciovocabulary,
-      demo: "https://diegotellezc.github.io/landing-accio-vocabulary/",
     },
     {
       id: 3,
       src: dogsblog,
-      demo: "https://dogs-blog-diegotellezdev.netlify.app/",
     },
     {
       id: 4,
       src: academloshop,
-      demo: "https://academlostoregen24.netlify.app/",
     },
     {
       id: 5,
       src: weatherapp,
-      demo: "https://weatherappbydt.netlify.app/",
     },
     {
       id: 6,
       src: rickandmorty,
-      demo: "https://rickandmorty-bydt.netlify.app/",
     },
     {
       id: 7,
       src: todomachine,
-      demo: "https://diegotellezc.github.io/toDoMachine/",
     },
     {
       id: 8,
       src: crud,
-      demo: "https://users-crud-bydt.netlify.app/",
     },
     {
       id: 9,
       src: moviepedia,
-      demo: "https://diegotellezc.github.io/Moviepedia/",
     },
     {
       id: 10,
       src: pokedex,
-      demo: "https://pokedex-bydt.netlify.app/",
     },
     {
       id: 11,
       src: tictactoe,
-      demo: "https://tictactoebydt.netlify.app/",
     },
     {
       id: 12,
       src: fortunecookies,
-      demo: "https://fortunecookiesapp.netlify.app/",
     },
     {
       id: 13,
       src: soccerquotes,
-      demo: "https://soccerquotes.netlify.app/",
     },
   ];
 
-  const handleClickDemo = (demoUrl) => {
-    const newWindow = window.open(demoUrl, "_blank");
-    newWindow.opener = null;
-    newWindow.rel = "noopener noreferrer";
-  };
+  // const handleClickDemo = (demoUrl) => {
+  //   const newWindow = window.open(demoUrl, "_blank");
+  //   newWindow.opener = null;
+  //   newWindow.rel = "noopener noreferrer";
+  // };
 
-  const handleClickCode = (codeUrl) => {
-    const newWindow = window.open(codeUrl, "_blank");
-    newWindow.opener = null;
-    newWindow.rel = "noopener noreferrer";
-  };
+  // const handleClickCode = (codeUrl) => {
+  //   const newWindow = window.open(codeUrl, "_blank");
+  //   newWindow.opener = null;
+  //   newWindow.rel = "noopener noreferrer";
+  // };
 
   return (
     <section
@@ -110,7 +97,7 @@ const AllProjects = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {projects.map(({ id, src, demo }) => (
+          {projects.map(({ id, src }) => (
             <div
               key={id}
               className="shadow-md shadow-gray-600 rounded-lg max-w-md mx-auto"
@@ -122,12 +109,12 @@ const AllProjects = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button
+                {/* <button
                   onClick={() => handleClickDemo(demo)}
                   className="w-1/2 px-6 py-2 m-4 duration-200 hover:scale-125"
                 >
                   Demo
-                </button>
+                </button> */}
               </div>
             </div>
           ))}
