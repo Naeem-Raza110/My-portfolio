@@ -43,10 +43,16 @@ const Home = () => {
           <img
             src="/images/naeemraza.webp"
             alt="My profile"
-            className="mb-1 mt-[50px] rounded-2xl mx-auto w-2/3 max-w-lg md:max-w-sm h-[460px] object-cover md:w-[70rem] shadow-2xl shadow-primary-color/20"
+            className="
+      rounded-2xl mx-auto 
+      w-[100%] h-[200px]       
+      sm:w-[80%] sm:h-[300px]  
+      md:max-w-sm md:h-[400px] 
+      lg:w-[400px] lg:h-[450px] 
+      object-cover 
+      shadow-2xl shadow-primary-color/20"
             style={{ filter: "drop-shadow(0px -4px 4px rgba(0, 255, 0, 0.5))" }}
           />
-
         </div>
       </div>
     </section>

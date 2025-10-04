@@ -5,15 +5,22 @@ const AboutSectionAbout = () => {
   return (
     <section name="About" className="relative w-full h-screen">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 py-16 md:py-24 lg:py-0 lg:flex-row lg:gap-8">
-        <div className="flex mt-8 md:mt-0">
+        <div className="flex mt-12 md:mt-0">
           <img
             src="/images/naeemabout.webp"
             alt="My profile"
-            className="rounded-2xl mx-auto w-2/3 max-w-lg md:max-w-sm object-cover md:w-[70rem] h-[450px] shadow-2xl shadow-primary-color/20"
+            className="
+      rounded-2xl mx-auto 
+      w-[100%] h-[200px]       
+      sm:w-[80%] sm:h-[300px]  
+      md:max-w-sm md:h-[400px] 
+      lg:w-[400px] lg:h-[450px] 
+      object-cover 
+      shadow-2xl shadow-primary-color/20
+    "
             style={{ filter: "drop-shadow(0px -4px 4px rgba(0, 255, 0, 0.5))" }}
           />
         </div>
-
         <div className="flex flex-col justify-center items-center h-[85%] md:h-full">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-2 md:mb-4">
             Who I am?
