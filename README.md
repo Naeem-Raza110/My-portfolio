@@ -16,23 +16,33 @@ Welcome to the portfolio of **Naeem Raza**, a passionate Frontend Developer spec
 
 ## ⚡ Technologies
 
-I work with the following core technologies:
+I work with the following core technologies and tools:
 
+### Frontend
 - **React.js** – Building interactive and dynamic user interfaces.  
+- **Next.js** – Server-side rendering and static site generation.  
 - **Tailwind CSS** – Crafting responsive and modern web designs.  
+- **HTML5 & CSS3** – Core building blocks of web development.  
+- **JavaScript (ES6+)** – Modern scripting for web applications.  
+- **TypeScript** – Typed JavaScript for scalable projects.  
+- **Bootstrap** – Rapid responsive UI development.  
 
----
-
-## 🛠 Libraries & Tools
-
-These libraries help me create professional and scalable web applications:
-
+### State Management & Libraries
+- **Redux** – State management for complex applications.  
+- **Zustand** – Lightweight state management.  
 - **react-router-dom** – Client-side routing in React apps.  
 - **sweetalert2** – Beautiful and responsive popup alerts.  
 - **axios** – HTTP requests for APIs and backend integration.  
 - **react-icons** – Modern and scalable icons for React.  
 - **react-scroll** – Smooth scrolling for single-page applications.  
 - **tsparticles** – Interactive particle animations for websites.  
+
+### Tools & Other
+- **Git & GitHub** – Version control and collaboration.  
+- **VS Code** – Development environment.  
+- **Figma / Adobe XD** – UI/UX design and mockups.  
+- **Vercel / Netlify** – Deployment for React apps.  
+- **Jest & Cypress** – Testing for React applications.  
 
 ---
 
@@ -51,15 +61,6 @@ Please open an issue first to discuss major changes and make sure to update test
 ## 📜 License
 
 This project is licensed under the **[MIT License](https://choosealicense.com/licenses/mit/)**.  
-
----
-
-## 🌐 SEO Optimized Notes for README
-
-- Clear project title with **keywords**: Frontend Developer, React.js, Tailwind CSS, Portfolio.  
-- Each section uses descriptive headings and keywords.  
-- Technologies and libraries are highlighted for discoverability.  
-- Links (resume, license) included for better user engagement.  
 
 ---
 
