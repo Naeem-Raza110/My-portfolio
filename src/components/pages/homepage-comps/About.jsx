@@ -5,10 +5,7 @@ import { Link as ScrollLink } from "react-scroll";
 
 const About = () => {
   return (
-    <section
-      name="About"
-      className="relative w-full text-white h-unset"
-    >
+    <section name="About" className="relative w-full text-white h-unset">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-lg">
         <div className="pb-8">
           <h2 className="text-4xl sm:text-5xl font-bold inline border-b-4 border-primary-color/40">
@@ -17,18 +14,21 @@ const About = () => {
         </div>
 
         <p className="mb-4 py-6">
-          Hey! I'm Naeem Raza, a passionate Frontend Developer from Gilgit,
-          Pakistan. I enjoy turning ideas into responsive and user-friendly
-          websites. My journey started with HTML, CSS, and JavaScript, and now I
-          work with modern tools like React, Tailwind CSS, and Bootstrap.
+          Hey! I'm Naeem Raza, a passionate Full-Stack Developer from
+          Gilgit-Baltistan, Pakistan. I enjoy turning ideas into complete,
+          scalable web applications from database to deployment. My journey
+          started with HTML, CSS, and JavaScript, and now I work with modern
+          tools like React, Next.js, TypeScript, Tailwind CSS, and Shadcn UI on
+          the frontend, and NestJS, Prisma, PostgreSQL, and Supabase on the
+          backend.
         </p>
 
         <p>
           With creativity, attention to detail, and a constant drive to learn,
-          I’m building projects that bring designs to life. I’m fascinated by
-          how technologies connect people and create possibilities, and I’m
-          excited to keep improving my skills and contributing to meaningful
-          projects.
+          I'm building projects that bring designs to life while making sure
+          everything works smoothly under the hood. I'm fascinated by how
+          technology connects people and creates possibilities, and I'm excited
+          to keep improving my skills and contributing to meaningful projects.
         </p>
 
         <Link

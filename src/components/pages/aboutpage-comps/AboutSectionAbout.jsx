@@ -5,7 +5,6 @@ const AboutSectionAbout = () => {
   return (
     <section name="About" className="relative w-full min-h-screen">
       <div className="max-w-screen-lg mx-auto flex flex-col lg:flex-row items-center justify-center h-full px-4 py-16 md:py-24 lg:gap-8">
-        
         {/* Image Section */}
         <div className="flex mt-8 md:mt-0">
           <img
@@ -38,22 +37,22 @@ const AboutSectionAbout = () => {
           </div>
 
           <p className="text-sm md:text-lg text-gray-300 py-2 text-justify">
-            I am a professional front-end developer with experience in building
-            modern, responsive, and user-friendly web applications. Over the
-            past years, I have specialized in React, Next.js, Tailwind CSS, and
-            Bootstrap, while also using GitHub for version control and
-            collaborative development. My focus is on delivering clean code,
-            optimized performance, and interfaces that work beautifully across
-            devices.
+            I am a full-stack developer experienced in building modern,
+            scalable, and user-friendly web applications from the ground up. On
+            the frontend, I work with React, Next.js, TypeScript, Tailwind CSS,
+            and Shadcn UI to craft clean, responsive interfaces. On the backend,
+            I build robust systems using NestJS, Prisma, PostgreSQL, and
+            Supabase — handling everything from database design and API
+            architecture to authentication and deployment.
           </p>
 
           <p className="text-sm md:text-lg text-gray-300 text-justify">
-            This experience has given me incredible opportunities to collaborate
-            with diverse teams and take on challenging projects. By working with
-            React, Next.js, Tailwind CSS, Bootstrap, and GitHub version control,
-            I have strengthened my ability to build scalable, responsive
-            interfaces and ensure high-quality results that meet both client and
-            user needs.
+            This experience has given me the ability to own projects end-to-end
+            from planning the database schema to shipping a polished,
+            production-ready UI. Working across the full stack has strengthened
+            my problem-solving skills, taught me to write clean and maintainable
+            code, and helped me deliver applications that are scalable,
+            performant, and built to meet real client and user needs.
           </p>
         </div>
       </div>

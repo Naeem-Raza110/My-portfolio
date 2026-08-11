@@ -12,13 +12,14 @@ const Home = () => {
             I'm Naeem Raza
           </h1>
           <h2 className="rounded-md bg-primary-color/20 max-w-max px-6 inline text-xl md:text-3xl lg:text-4xl font-semibold text-white">
-            Frontend Developer
+            Full-Stack Developer
           </h2>
           <p className="text-gray-300 py-4 max-x-md text-justify">
-            I specialize in building modern, responsive, and user-friendly web
-            applications. Skilled in HTML, CSS, JavaScript, React, and
-            frameworks like Tailwind CSS and Bootstrap, I bring designs to life
-            with clean code and creativity. Welcome to my portfolio, where I
+            I specialize in building modern, responsive, and scalable web
+            applications from front to back. Skilled in React, Next.js,
+            TypeScript, and Tailwind CSS on the frontend, along with NestJS,
+            Prisma, and PostgreSQL on the backend, I bring ideas to life with
+            clean code and solid architecture. Welcome to my portfolio, where I
             showcase my projects and journey as a developer.
           </p>
 
